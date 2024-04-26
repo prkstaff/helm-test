@@ -6,6 +6,6 @@ version: 0.1.0
 dependencies:
   - name: commondev
     repository: file://../commondev
-    import-values:
-      - data
+    #    import-values:
+    #      - data
     version: "0.0.1"
