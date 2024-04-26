@@ -5,6 +5,9 @@ metadata:
   namespace: argocd
   finalizers:
     - resources-finalizer.argocd.argoproj.io
+  annotations:
+    notifications.argoproj.io/subscribe.on-deleted.slack: {{ include "commondev.getTagURLforNotificationChannel" (dict "tag" .Values.release.tag "url" .Values.release.url) }}
+
 spec:
   destination:
     namespace: argocd
