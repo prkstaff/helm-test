@@ -1,7 +1,7 @@
 apiVersion: v2
 name: apps
 description: App of Apps
-type: library
+type: application
 version: 0.1.0
 dependencies:
   - name: commondev
