@@ -1,11 +1,11 @@
 apiVersion: v2
 name: apps
 description: App of Apps
-type: application
+type: library
 version: 0.1.0
-#dependencies:
-#  - name: commondev
-#    repository: file://../commondev
-#    import-values:
-#      - data
-#    version: "0.0.1"
+dependencies:
+  - name: commondev
+    repository: file://../commondev
+    #    import-values:
+    #      - data
+    version: "0.0.1"
