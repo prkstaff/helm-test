@@ -1,4 +1,3 @@
-#exports:
-#  data:
-#    commondev:
-#      slack_notification_channel: argocd-enterprise-dev
+exported:
+  commondev:
+    slack_notification_channel: argocd-enterprise-dev
